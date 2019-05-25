@@ -73,7 +73,7 @@ class Request extends TiieObject {
             return this;
         }
 
-        this.log("Unsuported params.", "warn");
+        this.__log("Unsuported params.", "warn");
     }
 
     method(method) {
